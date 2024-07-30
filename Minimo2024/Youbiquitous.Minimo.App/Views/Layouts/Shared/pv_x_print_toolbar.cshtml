@@ -1,0 +1,18 @@
+﻿@{
+    var path = Url.ActionContext.HttpContext.Request.Path.Value ?? "";
+}
+
+<div class="w-100 text-center p-2 bg-dark sticky-top no-print-area">
+    <button class="btn btn-primary ybq-printer" style="border-radius: 15px;">
+        PRINT
+    </button>
+</div>
+
+<script>
+    $(".ybq-printer").click(function () {
+        window.print();
+    });
+</script>
+
+
+

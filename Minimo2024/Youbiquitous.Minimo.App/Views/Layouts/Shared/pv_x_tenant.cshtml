@@ -1,0 +1,20 @@
+﻿@using Youbiquitous.Minimo.DomainModel.Account
+@using Youbiquitous.Minimo.Resources
+@{
+    var user = (UserAccount) ViewBag.LoggedUser;
+}
+
+@if (user == null)
+{
+    return;
+}
+
+<div class="opacity5">
+    @*     <img src="@user.RelatedTenant.LogoUrl" 
+         width="25" 
+         class="me-2" /> *@
+    <div class="tiny text-uppercase">@AppCommons.Text_OnBehalfOf</div>
+    @user.Tenant
+</div>
+    
+ 

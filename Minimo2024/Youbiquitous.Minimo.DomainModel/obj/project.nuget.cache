@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "iKnvuC3u0TmjSRs08uE6xxhdnVaairSqVc+hDOOOV7qqLbtRmX8hgme9vrGIzDiwhCa2SZowQHF62qNAsGa3/g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.DomainModel\\Youbiquitous.Minimo.DomainModel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mariavittoria\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Mariavittoria\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Mariavittoria\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\8.0.0\\microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Mariavittoria\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0\\microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Mariavittoria\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\8.0.0\\microsoft.extensions.hosting.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Mariavittoria\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Mariavittoria\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\Mariavittoria\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Mariavittoria\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\Mariavittoria\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
+    "C:\\Users\\Mariavittoria\\.nuget\\packages\\system.drawing.common\\8.0.0\\system.drawing.common.8.0.0.nupkg.sha512",
+    "C:\\Users\\Mariavittoria\\.nuget\\packages\\youbiquitous.martlet.core\\1.5.5\\youbiquitous.martlet.core.1.5.5.nupkg.sha512"
+  ],
+  "logs": []
+}

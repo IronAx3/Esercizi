@@ -1,0 +1,19 @@
+﻿@using Youbiquitous.Bootstrap5.TagHelpers.Markup
+@model Youbiquitous.Minimo.Settings.Core.MinimoSettings
+
+@{
+    var settings = Model;
+}
+
+<div class="d-flex justify-content-between align-items-center footer">
+    <div>
+        <img src="/images/minimo-logo-w.png" 
+             class="ms-2 img-flag" />
+        <span class="ms-1 text-sm">
+            INTERNAL USE TOOL
+        </span>
+    </div>
+    <div>
+        <span>@settings.General.Copyright</span>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+﻿@using Youbiquitous.Minimo.ViewModels
+@model Youbiquitous.Minimo.ViewModels.MainViewModelBase
+
+@if (Model.HeaderLayout.IsSameLine())
+{
+    <span id="page-header" class="bold text-uppercase">@Html.Raw(Model.Header)</span>
+    <span class="ms-3 text-xs opacity7">@Html.Raw(Model.SubHeader)</span>
+}
+else
+{
+    <span id="page-header" class="bold text-uppercase">@Html.Raw(Model.Header)</span>
+    <div class="tiny">@Html.Raw(Model.SubHeader)</div>
+}

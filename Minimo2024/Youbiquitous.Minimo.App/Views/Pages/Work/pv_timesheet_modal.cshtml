@@ -1,0 +1,91 @@
+﻿@using Youbiquitous.Minimo.App.Common.Extensions
+@using Youbiquitous.Minimo.DomainModel.Account
+@using Youbiquitous.Minimo.Resources
+@using Youbiquitous.Minimo.Settings
+@model Youbiquitous.Minimo.ViewModels.Account.WorkViewModel
+
+@section adhoc_css {
+}
+@section adhoc_scripts_top {
+}
+
+
+@{
+	var workdate = Model.Work.WorkDate;
+	var work = Model.Work;
+	var user = Model.User;
+	var projects = Model.Projects;
+	var workTypes = Enum.GetValues(typeof(WorkType)).Cast<WorkType>();
+	var savedPercentage = "100%";
+	var defaultPercentages = new List<string> { "10%", "20%", "30%", "40%", "50%", "60%", "70%", "80%", "90%", "100%" };
+	var date = workdate.ToString("yyyy-MM-dd") == DateTime.MinValue.ToString("yyyy-MM-dd") ? "Please select" : workdate.ToString("yyyy-MM-dd");
+}
+
+<form action="/work/save" method="post" id="work-form" autocomplete="off">
+	<div class="form-group">
+		<label for="date"></label>
+		<input type="date" class="form-control" id="date" name="date" value="@date" required>
+	</div>
+
+	<div class="form-group">
+		<label for="project">Progetto</label>
+		<select class="form-control" name="projectId" required>
+			<option disabled selected>Seleziona Progetto</option>
+			@foreach (var p in projects)
+			{
+				var sel = Model.Work.ProjectId == p.Id ? "selected" : "";
+				<!option name="projectId" value="@p.Id" @sel>@p.DisplayName</!option>
+			}
+		</select>
+	</div>
+
+	<div class="form-group">
+		<label for="workType">Tipo di Lavoro</label>
+		<select class="form-control" name="workType" required>
+			<option disabled selected>Seleziona Tipo di Lavoro</option>
+			@foreach (var workType in workTypes)
+			{
+				var sel = Model.Work.WorkType == workType ? "selected" : "";
+				<!option name="workType" value="@workType" @sel>@workType</!option>
+			}
+		</select>
+	</div>
+
+	<div class="form-group">
+		<label for="percentage">Percentuale</label>
+		<select class="form-select form-select-md" name="percentage" required>
+			@foreach (var percentage in defaultPercentages)
+			{
+				//var sel = Model.Work.DailyPercentage == percentage ? "selected" : "";
+				<!option value="@percentage" @(percentage == savedPercentage ? "selected" : "")>@percentage </!option>
+			}
+		</select>
+	</div>
+
+	<div class="form-group">
+		<label for="notes">Note</label>
+		<textarea class="form-control" id="notes" name="notes" rows="3"></textarea>
+	</div>
+
+	<div class="modal-footer">
+		<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		<input type="submit" class="btn btn-primary" value="Save" id="save">
+	</div>
+</form>
+
+<script>
+	// Save Modal form submission
+	$("#save").click(function () {
+		Ybq.postForm("#work-form",
+			function (data) {
+				var response = JSON.parse(data);
+				var url = "/Operator/TimeSheet/";
+				if (response.success) {
+					Ybq.goto(url)
+				}
+				else {
+					window.location.reload();
+				}
+			});
+	});
+</script>

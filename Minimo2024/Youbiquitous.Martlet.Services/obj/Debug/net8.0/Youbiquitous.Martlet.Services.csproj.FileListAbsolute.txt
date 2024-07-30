@@ -1,0 +1,12 @@
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Martlet.Services\bin\Debug\net8.0\Youbiquitous.Martlet.Services.deps.json
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Martlet.Services\bin\Debug\net8.0\Youbiquitous.Martlet.Services.dll
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Martlet.Services\bin\Debug\net8.0\Youbiquitous.Martlet.Services.pdb
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Martlet.Services\obj\Debug\net8.0\Youbiquitous.Martlet.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Martlet.Services\obj\Debug\net8.0\Youbiquitous.Martlet.Services.AssemblyInfoInputs.cache
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Martlet.Services\obj\Debug\net8.0\Youbiquitous.Martlet.Services.AssemblyInfo.cs
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Martlet.Services\obj\Debug\net8.0\Youbiquitous.Martlet.Services.csproj.CoreCompileInputs.cache
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Martlet.Services\obj\Debug\net8.0\Youbiquitous.Martlet.Services.sourcelink.json
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Martlet.Services\obj\Debug\net8.0\Youbiquitous.Martlet.Services.dll
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Martlet.Services\obj\Debug\net8.0\refint\Youbiquitous.Martlet.Services.dll
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Martlet.Services\obj\Debug\net8.0\Youbiquitous.Martlet.Services.pdb
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Martlet.Services\obj\Debug\net8.0\ref\Youbiquitous.Martlet.Services.dll

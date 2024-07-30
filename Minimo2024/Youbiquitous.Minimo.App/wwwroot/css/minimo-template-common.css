@@ -1,0 +1,85 @@
+
+/* ---------------------------------------------------------------------------- */
+/* Template-specific CSS styles */
+/* ---------------------------------------------------------------------------- */
+
+.sidebar {
+    min-width: var(--app-sidebar-width);
+    background: var(--app-sidebar);
+    color: var(--app-sidebar-text);
+    min-height: 99.99vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 5px;
+    z-index: 10000;
+}
+.sidebar-menu-item {
+    background-color: var(--app-sidebar);
+    color: var(--app-sidebar-text);
+    font-size: .85rem;
+    position: relative;
+    display: block;
+    padding: 2px 5px 2px;
+    width: 100%;
+    text-decoration: none;
+}
+    .sidebar-menu-item:hover {
+        background-color: var(--app-sidebar-hover-bg);
+        color: var(--app-sidebar-hover-text);
+    }
+.sidebar-menu-item-top {
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+.page-content-inner {
+    background-color: var(--app-body-bg);
+    color: var(--app-body-text);
+    mi1n-height: calc(100vh - 86px);
+    min-height: calc(100vh - var(--app-topbar-height));
+    padding: 15px;
+    width: 100%;
+}
+.page-content-topbar {
+    background-color: var(--app-topbar-bg);
+    color: var(--app-topbar-text);
+    padding: 8px;
+    border-bottom: solid 1px var(--app-topbar-border);
+    height: 55px;
+}
+.footer {
+    background: var(--app-footer-bg);
+    color: var(--app-footer-text);
+    padding: 6px;
+    text-align: right;
+    font-size: small;
+    height: var(--app-footer-height);
+}
+.footer-simple-notused {
+    bottom: 0;
+    padding: 20px calc(1.25rem / 2);
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: var(--app-footer-bg);
+    color: var(--app-footer-text);
+    height: 60px;
+    -webkit-box-shadow: 0 0 4px var(--app-shadow);
+    box-shadow: 0 0 4px var(--app-shadow);
+}
+.img-flag {
+    height: 16px;
+    box-shadow: 0 0 3px var(--app-shadow);
+}
+input::placeholder {
+    font-weight: lighter!important;
+    font-style: italic;
+    color: var(--app-grey);
+    opac1ity: 0.5!important;
+    col1or: var(--app-black);
+}
+input:focus {
+    background-color: var(--app-input-focus) !important;
+}
+

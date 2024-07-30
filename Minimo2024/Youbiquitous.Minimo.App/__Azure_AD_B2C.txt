@@ -1,0 +1,61 @@
+﻿
+STEP 1 - App Settings
+> Add a section to app-settings to include all configuration/secret details as set in cloud environment
+> Name this section AbB2C:Xxx where Xxx is the name of the customer (ie, WTA, ITF, Crionet)
+
+
+STEP 2 - Import Nuget package
+> Microsoft.Identity.Web (currently version 2.17.0)
+
+
+STEP 3
+> Modify the app's middleware AFTER the definition of cookie authentication schene 
+> NOTE: if the app (for some reasons) doesn't have cookie auth, then add an empty AddCookie call to builder.Services
+> Define constants in some AzureAdConstants file to identify the name of the custom auth scheme and the temp cookie scheme to collect info from the external identity provider
+> Name it "AdB2C_XXX" and "XXX-TEMP"
+> Constant names: AzureAdConstants.XxxOpenIdScheme / AzureAdConstants.XxxTempCookieScheme
+
+> Necessary middleware
+ builder.Services
+            .AddAuthentication()
+            .AddMicrosoftIdentityWebApp(options =>
+                {
+                    builder.Configuration.GetSection("AdB2C:Itf").Bind(options);
+                    options.ResponseType = OpenIdConnectResponseType.IdToken;
+                    options.Scope.Add(options.ClientId);
+                    options.SaveTokens = true;
+                    options.GetClaimsFromUserInfoEndpoint = true;
+                    // options.Events = BuildOpenIdConnectOptionsEvents(options);
+                },
+                openIdConnectScheme: AzureAdConstants.ItfOpenIdScheme, 
+                cookieScheme: AzureAdConstants.ItfTempCookieScheme);
+        return builder;
+
+
+STEP 4
+> In the AccountController class, define the XxxSignin method bound to the route ["/xxx/signin"] 
+> In the AccountController class, define the XxxRedirect method bound to the route ["/xxx/redirect"]
+> Method: "/xxx/signin"
+    var props1 = new AuthenticationProperties { RedirectUri = "" };
+        SignOut(props1, AzureAdConstants.ItfOpenIdScheme);  
+
+        // AzureAD will call you back here once done
+        var props2 = new AuthenticationProperties { RedirectUri = "/itf/redirect" };
+        await HttpContext.ChallengeAsync(AzureAdConstants.ItfOpenIdScheme, props2); 
+
+> Method: "xxx/redirect"
+    // Collect the temporary cookie created for us by the external authentication module
+    var authenticateResult = await HttpContext.AuthenticateAsync(AzureAdConstants.ItfTempCookieScheme); 
+    var principal = authenticateResult.Principal;
+
+    -- Collect claims
+    -- Create local cookie 
+
+    await HttpContext.SignOutAsync(AzureAdConstants.ItfTempCookieScheme);
+
+
+STEP 5
+> Make sure the final redirect to the home page of the app works
+> Possible issue is that the auth cookie (local) is not appended to the app 
+> This depends on the SameSiteMode of cookies. Our apps tend to use the strictest setting (Strict). 
+> In case of issues, switch it to Lax 

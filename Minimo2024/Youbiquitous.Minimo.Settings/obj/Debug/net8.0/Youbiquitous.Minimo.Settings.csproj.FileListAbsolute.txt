@@ -1,0 +1,12 @@
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.Settings\bin\Debug\net8.0\Youbiquitous.Minimo.Settings.deps.json
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.Settings\bin\Debug\net8.0\Youbiquitous.Minimo.Settings.dll
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.Settings\bin\Debug\net8.0\Youbiquitous.Minimo.Settings.pdb
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.Settings\obj\Debug\net8.0\Youbiquitous.Minimo.Settings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.Settings\obj\Debug\net8.0\Youbiquitous.Minimo.Settings.AssemblyInfoInputs.cache
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.Settings\obj\Debug\net8.0\Youbiquitous.Minimo.Settings.AssemblyInfo.cs
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.Settings\obj\Debug\net8.0\Youbiquitous.Minimo.Settings.csproj.CoreCompileInputs.cache
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.Settings\obj\Debug\net8.0\Youbiquitous.Minimo.Settings.sourcelink.json
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.Settings\obj\Debug\net8.0\Youbiquitous.Minimo.Settings.dll
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.Settings\obj\Debug\net8.0\refint\Youbiquitous.Minimo.Settings.dll
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.Settings\obj\Debug\net8.0\Youbiquitous.Minimo.Settings.pdb
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.Settings\obj\Debug\net8.0\ref\Youbiquitous.Minimo.Settings.dll

@@ -1,0 +1,40 @@
+﻿@model Youbiquitous.Minimo.ViewModels.MainViewModelBase
+
+
+<style>
+    .has-icon-left input[type] {
+        padding-left: 2rem;
+        display: inline;
+    }
+
+    .has-icon-right input[type] {
+        padding-right: 2rem;
+        display: inline;
+    }
+
+    .has-icon-right .form-control-feedback {
+        position: absolute;
+        z-index: 2;
+        width: 2.375rem;
+        height: 2.375rem;
+        line-height: 2.375rem;
+        text-align: center;
+        pointer-events: none;
+        color: #aaa;
+    }
+</style>
+
+
+<div class="has-icon-left" style="display: inline-block">
+    <span class="fa fa-search form-control-feedback"></span>
+    <input type="text" class="form-control has-icon-left" placeholder="Search">
+</div>
+<div class="has-icon-right" style="display: inline-block">
+    <input type="number" class="form-control has-icon-right" placeholder="Search">
+    <span class="fa fa-search form-control-feedback"></span>
+</div>
+
+
+
+
+

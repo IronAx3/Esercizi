@@ -1,0 +1,16 @@
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.DomainModel\bin\Debug\net8.0\Youbiquitous.Minimo.DomainModel.deps.json
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.DomainModel\bin\Debug\net8.0\Youbiquitous.Minimo.DomainModel.dll
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.DomainModel\bin\Debug\net8.0\Youbiquitous.Minimo.DomainModel.pdb
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.DomainModel\bin\Debug\net8.0\Youbiquitous.Minimo.Resources.dll
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.DomainModel\bin\Debug\net8.0\Youbiquitous.Minimo.Resources.pdb
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.DomainModel\obj\Debug\net8.0\Youbiquitous.Minimo.DomainModel.csproj.AssemblyReference.cache
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.DomainModel\obj\Debug\net8.0\Youbiquitous.Minimo.DomainModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.DomainModel\obj\Debug\net8.0\Youbiquitous.Minimo.DomainModel.AssemblyInfoInputs.cache
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.DomainModel\obj\Debug\net8.0\Youbiquitous.Minimo.DomainModel.AssemblyInfo.cs
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.DomainModel\obj\Debug\net8.0\Youbiquitous.Minimo.DomainModel.csproj.CoreCompileInputs.cache
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.DomainModel\obj\Debug\net8.0\Youbiqui.68D7B806.Up2Date
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.DomainModel\obj\Debug\net8.0\Youbiquitous.Minimo.DomainModel.dll
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.DomainModel\obj\Debug\net8.0\refint\Youbiquitous.Minimo.DomainModel.dll
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.DomainModel\obj\Debug\net8.0\Youbiquitous.Minimo.DomainModel.pdb
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.DomainModel\obj\Debug\net8.0\ref\Youbiquitous.Minimo.DomainModel.dll
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.DomainModel\bin\Debug\net8.0\it\Youbiquitous.Minimo.Resources.resources.dll

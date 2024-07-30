@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Youbiquitous.Martlet.Core" Version="1.5.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Youbiquitous.Minimo.DomainModel\Youbiquitous.Minimo.DomainModel.csproj" />
+    <ProjectReference Include="..\Youbiquitous.Minimo.Settings\Youbiquitous.Minimo.Settings.csproj" />
+    <ProjectReference Include="..\Youbiquitous.Minimo.Shared\Youbiquitous.Minimo.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

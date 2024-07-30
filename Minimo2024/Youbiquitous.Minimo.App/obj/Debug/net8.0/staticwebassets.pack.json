@@ -1,0 +1,497 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\app-assets\\minimo-logged.css",
+      "PackagePath": "staticwebassets\\css\\app-assets\\minimo-logged.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\app-assets\\minimo-logged.min.css",
+      "PackagePath": "staticwebassets\\css\\app-assets\\minimo-logged.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\app-assets\\tms-extensions.css",
+      "PackagePath": "staticwebassets\\css\\app-assets\\tms-extensions.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\app-assets\\tms-extensions.min.css",
+      "PackagePath": "staticwebassets\\css\\app-assets\\tms-extensions.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\app-assets\\tms-kendo.css",
+      "PackagePath": "staticwebassets\\css\\app-assets\\tms-kendo.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\app-assets\\tms-kendo.min.css",
+      "PackagePath": "staticwebassets\\css\\app-assets\\tms-kendo.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\app-assets\\tms-print.css",
+      "PackagePath": "staticwebassets\\css\\app-assets\\tms-print.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\app-assets\\tms-print.min.css",
+      "PackagePath": "staticwebassets\\css\\app-assets\\tms-print.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\lib\\bootstrap-toggle.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\bootstrap-toggle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\lib\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\lib\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\lib\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\lib\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\lib\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\lib\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\lib\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\lib\\fa5pro.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\fa5pro.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\lib\\jquery-confirm.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\jquery-confirm.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\lib\\ybq\\ybq-autocompleter.css",
+      "PackagePath": "staticwebassets\\css\\lib\\ybq\\ybq-autocompleter.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\lib\\ybq\\ybq-autocompleter.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\ybq\\ybq-autocompleter.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\lib\\ybq\\ybq-core.css",
+      "PackagePath": "staticwebassets\\css\\lib\\ybq\\ybq-core.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\lib\\ybq\\ybq-core.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\ybq\\ybq-core.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\lib\\ybq\\ybq-theme-default.css",
+      "PackagePath": "staticwebassets\\css\\lib\\ybq\\ybq-theme-default.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\lib\\ybq\\ybq-theme-default.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\ybq\\ybq-theme-default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\lib\\ybq\\ybq-theme-default.min.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\ybq\\ybq-theme-default.min.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\minimo-bootstrap-extensions.css",
+      "PackagePath": "staticwebassets\\css\\minimo-bootstrap-extensions.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\minimo-bootstrap-extensions.min.css",
+      "PackagePath": "staticwebassets\\css\\minimo-bootstrap-extensions.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\minimo-print.css",
+      "PackagePath": "staticwebassets\\css\\minimo-print.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\minimo-print.min.css",
+      "PackagePath": "staticwebassets\\css\\minimo-print.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\minimo-template-app.css",
+      "PackagePath": "staticwebassets\\css\\minimo-template-app.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\minimo-template-app.min.css",
+      "PackagePath": "staticwebassets\\css\\minimo-template-app.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\minimo-template-common.css",
+      "PackagePath": "staticwebassets\\css\\minimo-template-common.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\minimo-template-common.min.css",
+      "PackagePath": "staticwebassets\\css\\minimo-template-common.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\minimo-theme-default.css",
+      "PackagePath": "staticwebassets\\css\\minimo-theme-default.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\minimo-theme-default.min.css",
+      "PackagePath": "staticwebassets\\css\\minimo-theme-default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\minimo-theme-default.min.min.css",
+      "PackagePath": "staticwebassets\\css\\minimo-theme-default.min.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\minimo-theme-purple.css",
+      "PackagePath": "staticwebassets\\css\\minimo-theme-purple.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\minimo-theme-purple.min.css",
+      "PackagePath": "staticwebassets\\css\\minimo-theme-purple.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\minimo-theme-purple.min.min.css",
+      "PackagePath": "staticwebassets\\css\\minimo-theme-purple.min.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\webfonts\\fa-duotone-900.eot",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-duotone-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\webfonts\\fa-duotone-900.svg",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-duotone-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\webfonts\\fa-duotone-900.ttf",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-duotone-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\webfonts\\fa-duotone-900.woff",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-duotone-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\webfonts\\fa-duotone-900.woff2",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-duotone-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\webfonts\\fa-light-300.eot",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-light-300.eot"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\webfonts\\fa-light-300.svg",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-light-300.svg"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\webfonts\\fa-light-300.ttf",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-light-300.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\webfonts\\fa-light-300.woff",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-light-300.woff"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\webfonts\\fa-light-300.woff2",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-light-300.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\css\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\images\\covers\\Diagram.png",
+      "PackagePath": "staticwebassets\\images\\covers\\Diagram.png"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\images\\covers\\ProjectIcon.png",
+      "PackagePath": "staticwebassets\\images\\covers\\ProjectIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\images\\covers\\TimeSheet.jpg",
+      "PackagePath": "staticwebassets\\images\\covers\\TimeSheet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\images\\covers\\cover1.min.jpg",
+      "PackagePath": "staticwebassets\\images\\covers\\cover1.min.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\images\\flags\\de-de.jpg",
+      "PackagePath": "staticwebassets\\images\\flags\\de-de.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\images\\flags\\en-us.jpg",
+      "PackagePath": "staticwebassets\\images\\flags\\en-us.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\images\\flags\\es-es.jpg",
+      "PackagePath": "staticwebassets\\images\\flags\\es-es.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\images\\flags\\fr-fr.jpg",
+      "PackagePath": "staticwebassets\\images\\flags\\fr-fr.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\images\\flags\\it-it.jpg",
+      "PackagePath": "staticwebassets\\images\\flags\\it-it.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\images\\logos\\crionet-logo-h.png",
+      "PackagePath": "staticwebassets\\images\\logos\\crionet-logo-h.png"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\images\\logos\\crionet-xs.png",
+      "PackagePath": "staticwebassets\\images\\logos\\crionet-xs.png"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\images\\logos\\images.png",
+      "PackagePath": "staticwebassets\\images\\logos\\images.png"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\images\\logos\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logos\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\images\\logos\\none.png",
+      "PackagePath": "staticwebassets\\images\\logos\\none.png"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\images\\logos\\ybq-xs.png",
+      "PackagePath": "staticwebassets\\images\\logos\\ybq-xs.png"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\images\\minimo-avatar.png",
+      "PackagePath": "staticwebassets\\images\\minimo-avatar.png"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\images\\minimo-logo-h.png",
+      "PackagePath": "staticwebassets\\images\\minimo-logo-h.png"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\images\\minimo-logo-w.png",
+      "PackagePath": "staticwebassets\\images\\minimo-logo-w.png"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\images\\minimo-logo.png",
+      "PackagePath": "staticwebassets\\images\\minimo-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\app-assets\\account\\minimo-login.js",
+      "PackagePath": "staticwebassets\\js\\app-assets\\account\\minimo-login.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\app-assets\\account\\minimo-login.min.js",
+      "PackagePath": "staticwebassets\\js\\app-assets\\account\\minimo-login.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\app-assets\\account\\minimo-pswd.js",
+      "PackagePath": "staticwebassets\\js\\app-assets\\account\\minimo-pswd.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\app-assets\\account\\minimo-pswd.min.js",
+      "PackagePath": "staticwebassets\\js\\app-assets\\account\\minimo-pswd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\backup\\bootstrap-toggle.min.js",
+      "PackagePath": "staticwebassets\\js\\backup\\bootstrap-toggle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\backup\\jquery.numeric.js",
+      "PackagePath": "staticwebassets\\js\\backup\\jquery.numeric.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\backup\\ybq-core-old.js",
+      "PackagePath": "staticwebassets\\js\\backup\\ybq-core-old.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\backup\\ybq-core-old.min.js",
+      "PackagePath": "staticwebassets\\js\\backup\\ybq-core-old.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\backup\\ybq-dialog.js",
+      "PackagePath": "staticwebassets\\js\\backup\\ybq-dialog.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\backup\\ybq-dialog.min.js",
+      "PackagePath": "staticwebassets\\js\\backup\\ybq-dialog.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\backup\\ybq-forms-old.js",
+      "PackagePath": "staticwebassets\\js\\backup\\ybq-forms-old.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\backup\\ybq-forms-old.min.js",
+      "PackagePath": "staticwebassets\\js\\backup\\ybq-forms-old.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\backup\\ybq-tables.js",
+      "PackagePath": "staticwebassets\\js\\backup\\ybq-tables.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\backup\\ybq-tables.min.js",
+      "PackagePath": "staticwebassets\\js\\backup\\ybq-tables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\lib\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\lib\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\lib\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\lib\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\lib\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\lib\\jquery-confirm.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jquery-confirm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\lib\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\lib\\signalr.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\signalr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\lib\\ybq\\ybq-autocompleter.js",
+      "PackagePath": "staticwebassets\\js\\lib\\ybq\\ybq-autocompleter.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\lib\\ybq\\ybq-autocompleter.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\ybq\\ybq-autocompleter.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\lib\\ybq\\ybq-core-v24.js",
+      "PackagePath": "staticwebassets\\js\\lib\\ybq\\ybq-core-v24.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\lib\\ybq\\ybq-core-v24.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\ybq\\ybq-core-v24.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\lib\\ybq\\ybq-core.js",
+      "PackagePath": "staticwebassets\\js\\lib\\ybq\\ybq-core.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\lib\\ybq\\ybq-core.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\ybq\\ybq-core.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\lib\\ybq\\ybq-dialog.js",
+      "PackagePath": "staticwebassets\\js\\lib\\ybq\\ybq-dialog.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\lib\\ybq\\ybq-dialog.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\ybq\\ybq-dialog.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\lib\\ybq\\ybq-forms-v24.js",
+      "PackagePath": "staticwebassets\\js\\lib\\ybq\\ybq-forms-v24.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\lib\\ybq\\ybq-forms-v24.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\ybq\\ybq-forms-v24.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\lib\\ybq\\ybq-forms.js",
+      "PackagePath": "staticwebassets\\js\\lib\\ybq\\ybq-forms.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\lib\\ybq\\ybq-forms.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\ybq\\ybq-forms.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\lib\\ybq\\ybq-tables.js",
+      "PackagePath": "staticwebassets\\js\\lib\\ybq\\ybq-tables.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\lib\\ybq\\ybq-tables.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\ybq\\ybq-tables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\minimo-custom.js",
+      "PackagePath": "staticwebassets\\js\\minimo-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\minimo-custom.min.js",
+      "PackagePath": "staticwebassets\\js\\minimo-custom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\minimo-template.js",
+      "PackagePath": "staticwebassets\\js\\minimo-template.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\js\\minimo-template.min.js",
+      "PackagePath": "staticwebassets\\js\\minimo-template.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\wwwroot\\minimo-favicon.png",
+      "PackagePath": "staticwebassets\\minimo-favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Youbiquitous.Minimo.App.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Youbiquitous.Minimo.App.props",
+      "PackagePath": "build\\Youbiquitous.Minimo.App.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Youbiquitous.Minimo.App.props",
+      "PackagePath": "buildMultiTargeting\\Youbiquitous.Minimo.App.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Youbiquitous.Minimo.App.props",
+      "PackagePath": "buildTransitive\\Youbiquitous.Minimo.App.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

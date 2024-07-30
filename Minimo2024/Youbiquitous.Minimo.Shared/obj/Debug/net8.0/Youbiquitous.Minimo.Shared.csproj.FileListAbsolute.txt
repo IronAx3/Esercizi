@@ -1,0 +1,16 @@
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.Shared\bin\Debug\net8.0\Youbiquitous.Minimo.Shared.deps.json
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.Shared\bin\Debug\net8.0\Youbiquitous.Minimo.Shared.dll
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.Shared\bin\Debug\net8.0\Youbiquitous.Minimo.Shared.pdb
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.Shared\bin\Debug\net8.0\Youbiquitous.Minimo.Resources.dll
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.Shared\bin\Debug\net8.0\Youbiquitous.Minimo.Resources.pdb
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.Shared\obj\Debug\net8.0\Youbiquitous.Minimo.Shared.csproj.AssemblyReference.cache
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.Shared\obj\Debug\net8.0\Youbiquitous.Minimo.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.Shared\obj\Debug\net8.0\Youbiquitous.Minimo.Shared.AssemblyInfoInputs.cache
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.Shared\obj\Debug\net8.0\Youbiquitous.Minimo.Shared.AssemblyInfo.cs
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.Shared\obj\Debug\net8.0\Youbiquitous.Minimo.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.Shared\obj\Debug\net8.0\Youbiqui.8BB98BE7.Up2Date
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.Shared\obj\Debug\net8.0\Youbiquitous.Minimo.Shared.dll
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.Shared\obj\Debug\net8.0\refint\Youbiquitous.Minimo.Shared.dll
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.Shared\obj\Debug\net8.0\Youbiquitous.Minimo.Shared.pdb
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.Shared\obj\Debug\net8.0\ref\Youbiquitous.Minimo.Shared.dll
+C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.Shared\bin\Debug\net8.0\it\Youbiquitous.Minimo.Resources.resources.dll

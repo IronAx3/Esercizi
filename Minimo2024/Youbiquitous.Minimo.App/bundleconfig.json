@@ -1,0 +1,56 @@
+[
+  {
+    "outputFileName": "wwwroot/js/minimo-template.min.js",
+    "inputFiles": [
+      "wwwroot/js/minimo-template.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/minimo-custom.min.js",
+    "inputFiles": [
+      "wwwroot/js/minimo-custom.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/app-assets/minimo-login.min.js",
+    "inputFiles": [
+      "wwwroot/js/app-assets/minimo-login.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/app-assets/account/minimo-pswd.min.js",
+    "inputFiles": [
+      "wwwroot/js/app-assets/account/minimo-pswd.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/lib/ybq/ybq-core-v24.min.js",
+    "inputFiles": [
+      "wwwroot/js/lib/ybq/ybq-core-v24.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/lib/ybq/ybq-forms-v24.min.js",
+    "inputFiles": [
+      "wwwroot/js/lib/ybq/ybq-forms-v24.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/css/test.min.css",
+    "inputFiles": [
+      "wwwroot/css/test.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/css/lib/ybq/ybq-core.min.css",
+    "inputFiles": [
+      "wwwroot/css/lib/ybq/ybq-core.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/css/minimo-template-common.min.css",
+    "inputFiles": [
+      "wwwroot/css/minimo-template-common.css"
+    ]
+  }
+]

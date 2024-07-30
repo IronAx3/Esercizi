@@ -1,0 +1,35 @@
+﻿@using Youbiquitous.Martlet.Core.Extensions
+@model Youbiquitous.Minimo.ViewModels.MainViewModelBase
+
+@{
+    var availableCultures = Model.Settings.Localizer.GetAvailableLanguages();
+    var currentCulture = Model.Settings.Localizer.CurrentCulture().Name;
+    var url = Context.Request.Path.Value;
+}
+
+@if (!Model.Settings.Localizer.Active())
+{
+    return;
+}
+
+<div class="ms-1 dropdown d-inline-block language-switch">
+    <button type="button" 
+            class="btn"
+            data-bs-toggle="dropdown">
+        <img src="/images/flags/@(currentCulture).jpg" 
+             class="img-flag"/>
+    </button>
+    <div class="dropdown-menu dropdown-menu-end bordered p-1">
+        @foreach (var c in availableCultures)
+        {
+            if (c.Name == currentCulture)
+            {
+                continue;
+            }
+            <a href="/lang/@(c.Name)?r=@url" class="dropdown-item">
+                <img src="/images/flags/@(c.Name).jpg" class="me-1 bordered" height="12" /> 
+                <span class="align-middle">@(c.ShortDisplayName())</span>
+            </a>
+        }
+    </div>
+</div>

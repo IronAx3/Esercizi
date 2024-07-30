@@ -1,0 +1,49 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@using Youbiquitous.Minimo.Resources
+@using Youbiquitous.Minimo.ViewModels.UI
+@model Youbiquitous.Minimo.ViewModels.Account.LoginViewModel
+
+@{
+    Layout = $"{RazorPaths.Layout("_layout_Landing")}"; 
+}
+
+@section adhoc_scripts_bottom {
+    <script src="/js/lib/Ybq/ybq-forms-v24.min.js"></script>
+    <script src="~/js/app-assets/account/minimo-login.min.js"
+            asp-append-version="true"></script>
+}
+
+<!-- Ensure all text is localized -->
+<loginform id="login"
+           background-color="#33449955"
+           welcome-text="@Model.Settings.General.ApplicationDescription"
+           welcome-text-class="text-center text-white"
+           welcome-subtext="@AppStrings.Label_SigninToContinue"
+           action-url="/account/login"
+           remember-me-text="@AppMenu.RememberMe"
+           remember-me-checked="true"
+           remember-me-background="red"
+           forgot-password-url="/forgot/password"
+           forgot-password-text="@(AppMenu.ForgotPassword)?"
+           bottom-logo-url="/images/logos/crionet-logo-h.png" 
+           bottom-logo-class="whiten opacity5" 
+           user-placeholder-text="@AppStrings.Placeholder_UserName"
+           signin-button-text="@AppMenu.SignIn"
+           user-icon="fa fa-envelope" />
+
+<div class="text-center text-white mt-3 small opacity3">
+    Photo by Engin Akyurt on Unsplash.com
+</div>
+
+
+@* <a href="/itf/signin" class="btn btn-primary">
+    ITF SIGN-IN    
+</a> *@
+
+<!-- PAGE SPECIFIC SCRIPTS -->
+<script>
+    var Err_IncompleteCredentials = "@AppErrors.Err_IncompleteCredentials";
+    var Info_Connecting = "@AppMessages.Info_Connecting";
+    var System_SomethingWentWrong = "@AppErrors.Err_SomethingWentWrong";
+    var System_ConnectionError = "@AppErrors.Err_ConnectionError";
+</script>

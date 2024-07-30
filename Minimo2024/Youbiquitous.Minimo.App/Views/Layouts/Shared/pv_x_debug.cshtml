@@ -1,0 +1,46 @@
+﻿@model Youbiquitous.Minimo.ViewModels.MainViewModelBase
+@if (!Model.Settings.Run.DevMode)
+{
+    return;
+}
+
+<div id="uxdebug-container"
+     class="d-flex justify-content-center w-100 bg-dark text-warning p-2"
+     onclick="__hideMe()">
+    <span id="uxdebug-bspoint" class="me-4"></span>
+    <span id="uxdebug-wh" class="me-2"></span>
+</div>
+
+<script type="text/javascript">
+    __updateSize();
+    $(window).resize(function () {
+        __updateSize();
+    });
+
+    function __currentBootstrapScreenClass() {
+        // Bootstrap 5
+        var screen = "XXL";
+        var width = $(window).width();
+        if (width < 576)
+            screen = "XS";
+        else if (width < 768)
+            screen = "SM";
+        else if (width < 992)
+            screen = "MD";
+        else if (width < 1200)
+            screen = "LG";
+        else if (width < 1400)
+            screen = "XL";
+        return screen;
+    }
+
+    function __updateSize() {
+        var info = __currentBootstrapScreenClass();
+        $('#uxdebug-wh').text($(window).width() + "px");
+        $('#uxdebug-bspoint').text(info);
+    }
+
+    function __hideMe() {
+        $("#uxdebug-container").addClass("d-none");
+    }
+</script>

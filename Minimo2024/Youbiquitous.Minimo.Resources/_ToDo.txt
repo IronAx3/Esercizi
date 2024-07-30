@@ -1,0 +1,27 @@
+﻿APP-MESSAGES
+===========================
+Info_xxx      => Informational messages (ie, Connecting...)
+Question_xxx  => You're about to ... Confirm?
+
+    
+APP-ERRORS
+===========================
+Msg_xxx      => Light informational error messages (ie, No records founds...)
+Err_xxx      => Serious error messages (mostly associated with exceptions
+
+
+APP_COMMONS
+===========================
+Text_xx       => Common and app specific terms (ie. N/A)
+
+
+APP_MENU      
+===========================
+XXX           => Plain names of links in menus
+
+
+APP_STRINGS 
+===========================
+Label_xxx         => Labels in the UI
+Placeholder_xxx   => Input placeholders
+App_xxx           => App text (ie., descriptions)

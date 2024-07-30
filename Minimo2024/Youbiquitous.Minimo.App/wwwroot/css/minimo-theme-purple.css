@@ -1,0 +1,134 @@
+﻿
+/* ---------------------------------------------------------------------------- */
+/* THEME: purple  */
+/* Colors  */
+/* ---------------------------------------------------------------------------- */
+
+
+/* OVERRIDE HERE basic colors of the YBQ/Bootstrap template */
+
+:root {
+    /* BOOTSTRAP context colors */
+    --app-primary: #5b73e8;
+    --app-secondary: #338;
+    --app-success: #34c38f;
+    --app-info: #50a5f1;
+    --app-warning: #f1b44c;
+    --app-danger: #f46a6a;
+    --app-dark: #343a40;
+    /* Standard scales of gray */
+    --app-lightgrey: #d8d8d8;
+    --app-grey: #aaa;
+    --app-darkgrey: #555;
+    --app-light: #f5f6f8;
+    --app-black: #000000;
+    --app-white: #ffffff;
+    /* Additional context colors */
+    --app-hover: #E8F1F2;
+    --app-hilite: rgba(255, 220, 100, .8);
+    --app-input-focus: beige;
+}
+
+
+
+
+/* COLORS of the HTML/CSS template */
+
+:root {
+    /* Body background (default) */
+    --app-body-bg: #efefef;
+    /* Body foreground text (default) */
+    --app-body-text: #000;
+    /* Topbar background color */
+    --app-topbar-bg: #fff;
+
+    /* Topbar foreground color */
+    --app-topbar-text: #555;
+    /* Topbar bottom border color */
+    --app-topbar-border: #ccc;
+
+    /* Footer background color */
+    --app-footer-bg: var(--app-dark);
+    /* Footer background color */
+    --app-footer-text: var(--app-lightgrey);
+
+    /* Sidebar panel width */
+    --app-sidebar-width: 12rem;
+    /* Sidebar panel background */
+    --app-sidebar: #55197C;
+    /* Sidebar panel foreground */
+    --app-sidebar-text: #fff;
+    /* Sidebar menu item hover background */
+    --app-sidebar-hover-bg: #000;
+    /* Sidebar menu item hover foreground */
+    --app-sidebar-hover-text: #fff;
+
+    /* Shadow of elements */
+    --app-shadow: #707070;
+}
+
+
+
+/* ---------------------------------------------------------------------------- */
+/* Element-specific CSS styles */
+/* ---------------------------------------------------------------------------- */
+
+/* TABLES */
+.table-grid {
+    width: 100%;
+    background-color: var(--app-white);
+    color: var(--app-black);
+    border-spacing: 40px;
+    cursor: default;
+}
+
+.table-grid-bordered {
+    border: solid 1px #111;
+}
+
+.table-grid tbody tr {
+    font-size: .9rem;
+    border-bottom: solid 1px var(--app-lightgrey);
+}
+
+.table-grid tbody td {
+    padding: 3px;
+    padding-left: 6px;
+}
+
+.table-grid thead tr {
+    border-bottom: solid 2px var(--app-black);
+}
+
+.table-grid thead th {
+    font-weight: bold;
+    opacity: .5;
+    padding-top: 5px;
+    padding-left: 6px !important;
+}
+
+.table-grid tbody tr:first-child td {
+    padding-top: 10px;
+}
+
+.table-grid tfoot {
+    border-bottom: solid 1px var(--app-black);
+}
+
+.table-col-indexer {
+    width: 30px;
+    opacity: .5;
+    font-weight: normal;
+    font-size: .8rem;
+    text-align: right;
+    padding-right: 5px !important;
+}
+
+.table-col-indexer::after {
+    content: '.'
+}
+
+.table-col-numeric {
+    text-align: right;
+    padding-right: 10px !important;
+}

@@ -1,0 +1,57 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@using Youbiquitous.Minimo.ViewModels.UI
+@model Youbiquitous.Minimo.ViewModels.LandingViewModelBase
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <partial name="@RazorPaths.SharedLayout("pv_x_metatags")" />
+
+    <title>@Model.Title</title>
+
+    <!-- Core CSS refs -->
+    <link rel="stylesheet" href="/css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="/app/css" />
+    <link rel="stylesheet" href="/css/lib/ybq/ybq-core.min.css" />
+    <link rel="stylesheet" href="/css/lib/fa5pro.min.css" />
+
+    <!-- More specific CSS refs -->
+    @await RenderSectionAsync("adhoc_css", required: false)
+
+    <!-- Core JS refs -->
+    <script src="/js/lib/jquery.min.js"></script>
+    <script src="/js/lib/bootstrap.bundle.min.js"></script>
+    <script src="/js/lib/ybq/ybq-core-v24.min.js"></script>
+
+    <!-- More specific JS refs -->
+    @await RenderSectionAsync("adhoc_scripts_top", required: false)
+</head>
+
+<body bg-image="/images/covers/cover1.min.jpg">
+
+<div class="container">
+    <div class="text-center text-white mb-4 opacity8">
+        <img src="/images/minimo-logo.png" class="whiten mt-3" style="width: 40px"/>
+
+        <h1 class="text-uppercase">
+            <span class="normal opacity7">@Model.Settings.General.ProjectName</span>
+            <span class="ms-1">@Model.Settings.General.ApplicationName</span>
+        </h1>
+        <h6 class="text-uppercase">@Model.Settings.General.ApplicationDescription</h6>
+        <hr class="bordered-white"/>
+        <div class="tiny text-end opacity8">
+            <span class="bold">@Model.Settings.General.Version</span>
+            <span class="ms-2">@Model.Settings.General.BuildInfo</span>
+        </div>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+</div>
+
+<!-- More specific JS refs -->
+@await RenderSectionAsync("adhoc_scripts_bottom", required: false)
+
+</body>
+</html>

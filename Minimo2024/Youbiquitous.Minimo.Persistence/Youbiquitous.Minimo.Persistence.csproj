@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.20.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Youbiquitous.Martlet.Services\Youbiquitous.Martlet.Services.csproj" />
+    <ProjectReference Include="..\Youbiquitous.Minimo.DomainModel\Youbiquitous.Minimo.DomainModel.csproj" />
+    <ProjectReference Include="..\Youbiquitous.Minimo.Resources\Youbiquitous.Minimo.Resources.csproj" />
+    <ProjectReference Include="..\Youbiquitous.Minimo.Shared\Youbiquitous.Minimo.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,49 @@
+﻿@using Youbiquitous.Minimo.App.Common.Extensions
+@using Youbiquitous.Minimo.DomainModel.Account
+@using Youbiquitous.Minimo.Resources
+@using Youbiquitous.Minimo.Settings
+@model List<Work>
+@{
+}
+@section adhoc_css {
+}
+@section adhoc_scripts_top {
+}
+
+<div class="mb-0">
+	<table class="table" id="tabella-utenti">
+		<thead class="thead-light bg-dark text-white">
+			<tr>
+				<th scope="col">Date</th>
+				<th scope="col">Project</th>
+				<th scope="col">WorkType</th>
+				<th scope="col">Percentage</th>
+				<th scope="col">@AppStrings.Label_Actions</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var work in Model)
+			{
+				<tr>
+
+					<td>@work.WorkDate</td>
+					<td>@work.Project?.DisplayName</td>
+					<td>@work.WorkType</td>
+					<td>@work.DailyPercentage</td>
+					<td class="text-centered">
+						<button type="button" class="btn btn-warning fas fa-edit addModal" data-workid="@work.Id" data-bs-toggle="modal" data-bs-target="#modal-work"></button>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+</div>
+
+
+<script>
+
+	// $(document).ready(function () {
+	//     var datatable = $('#tabella-utenti').DataTable();
+	// });
+</script>
+

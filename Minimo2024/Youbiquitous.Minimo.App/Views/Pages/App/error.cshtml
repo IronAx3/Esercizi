@@ -1,0 +1,60 @@
+﻿@using Youbiquitous.Martlet.Mvc.Core
+@using Youbiquitous.Minimo.App.Common.Extensions
+@using Youbiquitous.Minimo.Resources
+@using Youbiquitous.Minimo.Shared.Exceptions
+@using Youbiquitous.Minimo.ViewModels.UI
+@model Youbiquitous.Minimo.ViewModels.ErrorViewModel
+
+@{
+    Layout = $"{RazorPaths.Layout("_layout_Simple")}";
+    var errorObject = Model.Error ?? new MinimoException(AppErrors.Err_PageNotAvailable);
+    var logged = User.Logged();
+    var verbose = logged != null && logged.IsSystem();
+    var messageToShow = errorObject.ThrownUncontrolled
+        ? AppErrors.Err_SomethingWentWrong
+        : errorObject.Message;
+}
+
+<div class="col-12 col-lg-8 offset-lg-2">
+    <div class="text-center">
+        <div class="display-4">@AppErrors.Msg_Oops</div>
+        <h3 class="text-danger">@messageToShow</h3>
+        @if (errorObject.ThrownUncontrolled)
+        {
+            <h6>@AppMessages.Info_ContactSystemAdmin</h6>
+        }
+
+        @if (verbose)
+        {
+            <hr />
+            <h5 class="italic">
+                @errorObject.InternalMessage
+            </h5>
+        }
+        @if (verbose && errorObject.ThrownUncontrolled)
+        {
+            <h6 class="italic">
+                @errorObject.Message
+            </h6>
+        }
+
+
+        @if (!Context.Request.Url().Contains("/print/"))
+        {
+            <div class="mt-4">
+                <a class="btn btn-primary text-uppercase m-3" href="@errorObject.ContinueUrl">
+                    @AppMenu.Continue
+                </a>
+                @if (User.Identity!.IsAuthenticated)
+                {
+                    <a class="btn btn-primary text-uppercase m-3" href="/logout">
+                        @AppMenu.SignOut
+                    </a>
+                }
+            </div>
+        }
+    </div>
+</div>
+
+
+

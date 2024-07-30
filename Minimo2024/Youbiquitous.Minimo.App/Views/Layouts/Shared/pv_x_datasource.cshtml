@@ -1,0 +1,17 @@
+﻿@using Youbiquitous.Martlet.Mvc.Core
+@using Youbiquitous.Minimo.Resources
+@model Youbiquitous.Minimo.ViewModels.MainViewModelBase
+
+@{
+    var isLocalOnLiveDb = Context.Request.HttpContext.IsLocalRequest() &&
+                          Model.Settings.Secrets.IsConnectedToLiveData();
+
+}
+
+@if (isLocalOnLiveDb)
+{
+    <div class="app-production-warning">
+        <i class="fa fa-exclamation-triangle me-2"></i>
+        <span>@AppCommons.Text_ProductionDb</span>
+    </div>
+}

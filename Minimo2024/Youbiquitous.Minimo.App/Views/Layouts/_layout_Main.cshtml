@@ -1,0 +1,152 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@using Youbiquitous.Martlet.Mvc.Core
+@using Youbiquitous.Martlet.Core.Extensions
+@using Youbiquitous.Minimo.App.Common.Extensions
+@using Youbiquitous.Minimo.Resources
+@using Youbiquitous.Minimo.ViewModels.UI
+@model Youbiquitous.Minimo.ViewModels.MainViewModelBase
+
+@{
+    var isLocal = Context.Request.HttpContext.IsLocalRequest();
+    var titlePrefix = isLocal ? "(LOCAL) " : "";
+    var title = Model.Title.IsNullOrWhitespace()
+        ? Model.Settings.General.ApplicationName : Model.Title;
+
+    // Share info
+    ViewBag.LoggedUser = User.Logged();
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <partial name="@RazorPaths.SharedLayout("pv_x_metatags")" />
+
+    <title>@(titlePrefix)@(title)</title>
+
+    <!-- Core CSS refs -->
+    <link rel="stylesheet" href="/css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="/app/css" />
+    <link rel="stylesheet" href="/css/minimo-bootstrap-extensions.min.css" />
+    <link rel="stylesheet" href="/css/lib/ybq/ybq-core.min.css" />
+    <link rel="stylesheet" href="/css/lib/ybq/ybq-forms.min.css" />
+    <link rel="stylesheet" href="/css/minimo-template-common.min.css" />
+    <link rel="stylesheet" href="/css/minimo-template-app.min.css" />
+    <link rel="stylesheet" href="/css/lib/fa5pro.min.css"/>
+    <link rel="stylesheet" href="/css/lib/jquery-confirm.min.css" />
+    <link rel="stylesheet" href="/css/lib/ybq/ybq-autocompleter.min.css" />
+    <link rel="stylesheet" href="/css/app-assets/minimo-logged.min.css" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gantari:wght@500&display=swap" />
+
+
+
+    <!-- More specific CSS refs -->
+    @await RenderSectionAsync("adhoc_css", required: false)
+
+    <!-- Core JS refs -->
+    <script src="/js/lib/jquery.min.js"></script>
+    <script src="/js/lib/ybq/ybq-core-v24.min.js"></script>
+    <script src="/js/lib/ybq/ybq-autocompleter.min.js"></script>
+
+    <script src="~/js/lib/ybq/ybq-forms-v24.min.js"></script>
+    <script src="~/js/lib/ybq/ybq-forms-v24.js"></script>
+    <script src="/js/lib/bootstrap.bundle.min.js"></script>
+	<script src="~/js/lib/ybq/ybq-forms.min.js"></script>
+	<script src="~/js/lib/ybq/ybq-forms.js"></script>
+@*     <script src="/js/lib/jquery-confirm.min.js"></script> *@
+    <script src="path/to/chartjs/dist/chart.umd.js"></script>
+
+
+
+    <!-- More specific JS refs -->
+    @await RenderSectionAsync("adhoc_scripts_top", required: false)
+</head>
+
+<body>
+<partial name="@RazorPaths.SharedLayout("pv_x_datasource")" />
+<div id="wrapper">
+
+    <!-- Sidebar-->
+    <div class="sidebar" id="sidebar-container">
+        <partial name="@RazorPaths.SharedLayout("pv_x_debug")" />
+
+        <div class="mt-2 text-center">
+            <partial name="@RazorPaths.SharedLayout("pv_x_product")" />
+        </div>
+
+        <div class="mt-4">
+            <div>
+                @await RenderSectionAsync("sidebar_top", required: false)
+            </div>
+            <div>
+                <partial name="@RazorPaths.SharedLayout("pv_x_sidebar_menu")" model="Model.Menu.Items"/>
+            </div>
+            <div>
+                @await RenderSectionAsync("sidebar_bottom", required: false)
+            </div>
+        </div>
+    </div>
+
+    <style>
+        #page-content-container {
+
+        }
+    </style>
+
+    <!-- Page content wrapper-->
+        <div id="page-content-container" class="position-relative">
+
+        <!-- Top navigation bar -->
+        <div class="container-fluid page-content-topbar sticky-top">
+            <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center flex-grow-1">
+                    <div>
+                        <button class="btn btn-primary" id="sidebarToggle">
+                            <span class="fa fa-bars"></span>
+                        </button>
+                    </div>
+                    <div class="ms-3 d-none d-sm-block flex-grow-1">
+                        <partial name="@RazorPaths.SharedLayout("pv_x_header")" />
+                    </div>
+                    <div class="ms-3 d-none d-md-block">
+                        <partial name="@RazorPaths.SharedLayout("pv_x_toolbar")" />
+                    </div>
+                </div>
+
+                <div style="min-width: 200px;">
+                    <partial name="@RazorPaths.SharedLayout("pv_x_logged")" />
+                </div>
+
+                <div>
+                    <partial name="@RazorPaths.SharedLayout("pv_x_language")" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Page content-->
+        <div class="container-fluid page-content-inner @Model.Theme">
+            @RenderBody()
+        </div>
+    </div>
+    <div style="position: fixed; width: 100%; bottom: 0;">
+        <partial name="@RazorPaths.SharedLayout("pv_x_footer")"
+                    model="@Model.Settings" />
+    </div>
+</div>
+
+
+<!-- More JS-->
+<script src="/js/minimo-template.min.js"></script>
+<script>
+    var System_ConnectionError = "@AppErrors.Err_ConnectionError";
+</script>
+
+<!-- More specific JS refs -->
+@await RenderSectionAsync("adhoc_scripts_bottom", required: false)
+
+</body>
+</html>

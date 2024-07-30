@@ -1,0 +1,71 @@
+///////////////////////////////////////////////////////////////////
+//
+// Project MINIMO
+// Starter Kit 2024
+//
+// Youbiquitous Team
+//
+//
+
+
+{
+  "Localizer": {
+    "Languages": [ "en-us", "it-it" ],
+    "DefaultCultureCode": "en-US"
+  },
+
+  "Run": {
+    "ShowBrowserLiveInfo": true,
+    "DevMode": true,
+    "Theme": "default"
+  },
+
+  "Mfa": {
+    "Enabled": false,
+    "Transport": "email"
+  },
+
+  "General": {
+    "ProjectName": "Youbiquitous",
+    "ApplicationName": "MINIMO",
+    "ApplicationDescription": "Starter Kit 2024",
+    "Version": "v0.1.001",
+    "BuildInfo": "Apr 1, 2024",
+    "ContactEmail": "team@youbiquitous.net",
+    "Copyright": {
+      "Name": "Crionet",
+      "Year": "2024-2034"
+    }
+  },
+
+  "Secrets": {
+    "MinimoDatabase": {
+      "Selector": "local",
+      "Live": "live db",
+      "Local": "Data Source=DESKTOP-0HJD1Q2\\SQLEXPRESS; Integrated Security=True; Initial Catalog=Business;TrustServerCertificate=True;"
+    }
+  },
+
+  "AdB2C": {
+    "Wta": {
+      "Instance": "https://wtatennis2.b2clogin.com",
+      "ClientId": "0c96c8f1-8d56-4d4d-8b04-be0ddfe61a10",
+      "Domain": "wtatennis2.onmicrosoft.com",
+      "SignedOutCallbackPath": "/signout/B2C_1_susi",
+      "SignUpSignInPolicyId": "B2C_1_WTACESSUSI",
+      "ResetPasswordPolicyId": "B2C_1_WTACESRP",
+      "EditProfilePolicyId": "B2C_1_WTACESPE", // Optional profile editing policy      
+      "ClientSecret": "EHD8Q~2ig3yB_NjaRaDjQNlKD~QyUcsI~8PwgbjU" // directory/tenant ID from the Azure config of the app
+    },
+
+    "Itf": {
+      "Instance": "https://iditftennisuat2.b2clogin.com/tfp/",
+      "ClientId": "f5f35858-4b6f-42f8-9ff1-ced4c604b36c",
+      //"CallbackPath": "/signin-oidc",
+      "Domain": "iditftennisuat2.onmicrosoft.com",
+      "SignUpSignInPolicyId": "B2C_1A_SignIn",
+      "ResetPasswordPolicyId": "B2C_1A_TennisId_PasswordReset",
+      "EditProfilePolicyId": ""
+    }
+  }
+}

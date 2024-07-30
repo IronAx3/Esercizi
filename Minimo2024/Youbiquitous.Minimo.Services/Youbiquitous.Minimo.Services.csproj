@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Youbiquitous.Minimo.DomainModel\Youbiquitous.Minimo.DomainModel.csproj" />
+    <ProjectReference Include="..\Youbiquitous.Minimo.Infrastructure\Youbiquitous.Minimo.Infrastructure.csproj" />
+    <ProjectReference Include="..\Youbiquitous.Minimo.Persistence\Youbiquitous.Minimo.Persistence.csproj" />
+    <ProjectReference Include="..\Youbiquitous.Minimo.Settings\Youbiquitous.Minimo.Settings.csproj" />
+    <ProjectReference Include="..\Youbiquitous.Minimo.Shared\Youbiquitous.Minimo.Shared.csproj" />
+    <ProjectReference Include="..\Youbiquitous.Minimo.ViewModels\Youbiquitous.Minimo.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>

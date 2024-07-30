@@ -1,0 +1,24 @@
+﻿@using Youbiquitous.Martlet.Core.Extensions
+@using Youbiquitous.Minimo.ViewModels.UI
+@model IList<SidebarMenuItem>
+
+<div class="list-group">
+    @foreach (var m in Model)
+    {
+        if (m.IsDivider)
+        {
+            <div style="border-bottom: solid 1px #fff0f5;" 
+                 class="mt-1 mb-3"></div>
+        }
+        else
+        {
+            <a href="@m.Url" target="@m.Target" class="sidebar-menu-item">
+                @if (!m.Icon.IsNullOrWhitespace())
+                {
+                    <i class="opacity7 @m.Icon me-2"></i>
+                }
+                @m.Text
+            </a>
+        }
+    }
+</div>

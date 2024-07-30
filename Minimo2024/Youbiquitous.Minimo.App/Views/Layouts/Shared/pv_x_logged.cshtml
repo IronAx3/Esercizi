@@ -1,0 +1,48 @@
+﻿@using Youbiquitous.Martlet.Core.Extensions
+@using Youbiquitous.Minimo.DomainModel.Account
+@using Youbiquitous.Minimo.Resources
+@model Youbiquitous.Minimo.ViewModels.MainViewModelBase
+
+@{
+    var authenticated = User.Identity?.IsAuthenticated ?? false;
+    var user = (UserAccount) ViewBag.LoggedUser; 
+    if (user is null)
+    {
+        //return;
+        throw new Exception("Invalid user");
+    }
+}
+
+@if (!authenticated)
+{
+    <a class="nav-link" href="/account/login">@AppMenu.SignIn</a>
+    return;
+}
+<dropdown id="logged-user-dropdown"
+          text="@user"
+          text-class="text-sm"
+          icon="me-2 @user.Icon"
+          rightmost="true"
+          caret="fa fa-chevron-down"
+          menu-class="logged-dd-menu"
+          button-layout="Between"
+          btn="btn btn-outline-secondary">
+    <markup class="logged-dd-markup">
+        <div class="logged-dd-markup-container">
+            <div class="d-flex justify-content-between logged-dd-markup-header">
+                <div class="bold">
+                    @Model.Settings.General.ApplicationName
+                </div>
+                <div class="logged-dd-runtime">
+                    @Model.Settings.General.Version - @Model.Settings.General.BuildInfo
+                </div>
+            </div>
+        </div>
+        <div class="logged-dd-version opacity7 text-center text-xs">
+            <span>Runtime @Environment.Version</span>
+            <span class="ms-3">@Model.Settings.Run.Theme.Wrap("(")</span>
+        </div>
+    </markup>
+
+    <listitem type="Link" label-class="small" url="/logout" icon="fa fa-sign-out me-4" label="@AppMenu.SignOut" />
+</dropdown>

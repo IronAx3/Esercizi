@@ -1,0 +1,292 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA02DC8-EC5A-4637-BCC4-061B6D503067}|Youbiquitous.Minimo.App\\Youbiquitous.Minimo.App.csproj|c:\\users\\mariavittoria\\onedrive\\documenti\\minimo2024\\youbiquitous.minimo.app\\views\\pages\\work\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEA02DC8-EC5A-4637-BCC4-061B6D503067}|Youbiquitous.Minimo.App\\Youbiquitous.Minimo.App.csproj|solutionrelative:youbiquitous.minimo.app\\views\\pages\\work\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA02DC8-EC5A-4637-BCC4-061B6D503067}|Youbiquitous.Minimo.App\\Youbiquitous.Minimo.App.csproj|c:\\users\\mariavittoria\\onedrive\\documenti\\minimo2024\\youbiquitous.minimo.app\\controllers\\workcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEA02DC8-EC5A-4637-BCC4-061B6D503067}|Youbiquitous.Minimo.App\\Youbiquitous.Minimo.App.csproj|solutionrelative:youbiquitous.minimo.app\\controllers\\workcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA02DC8-EC5A-4637-BCC4-061B6D503067}|Youbiquitous.Minimo.App\\Youbiquitous.Minimo.App.csproj|c:\\users\\mariavittoria\\onedrive\\documenti\\minimo2024\\youbiquitous.minimo.app\\views\\pages\\work\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEA02DC8-EC5A-4637-BCC4-061B6D503067}|Youbiquitous.Minimo.App\\Youbiquitous.Minimo.App.csproj|solutionrelative:youbiquitous.minimo.app\\views\\pages\\work\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA02DC8-EC5A-4637-BCC4-061B6D503067}|Youbiquitous.Minimo.App\\Youbiquitous.Minimo.App.csproj|c:\\users\\mariavittoria\\onedrive\\documenti\\minimo2024\\youbiquitous.minimo.app\\views\\pages\\work\\pv_timesheet_modal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEA02DC8-EC5A-4637-BCC4-061B6D503067}|Youbiquitous.Minimo.App\\Youbiquitous.Minimo.App.csproj|solutionrelative:youbiquitous.minimo.app\\views\\pages\\work\\pv_timesheet_modal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9380FDFA-12BF-4BFF-A0AF-79A81167BA33}|Youbiquitous.Minimo.Persistence\\Youbiquitous.Minimo.Persistence.csproj|c:\\users\\mariavittoria\\onedrive\\documenti\\minimo2024\\youbiquitous.minimo.persistence\\repositories\\workrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9380FDFA-12BF-4BFF-A0AF-79A81167BA33}|Youbiquitous.Minimo.Persistence\\Youbiquitous.Minimo.Persistence.csproj|solutionrelative:youbiquitous.minimo.persistence\\repositories\\workrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4E1533E-B152-414C-8BCB-BDA5EA749638}|Youbiquitous.Minimo.Services\\Youbiquitous.Minimo.Services.csproj|c:\\users\\mariavittoria\\onedrive\\documenti\\minimo2024\\youbiquitous.minimo.services\\account\\workservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4E1533E-B152-414C-8BCB-BDA5EA749638}|Youbiquitous.Minimo.Services\\Youbiquitous.Minimo.Services.csproj|solutionrelative:youbiquitous.minimo.services\\account\\workservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4E1533E-B152-414C-8BCB-BDA5EA749638}|Youbiquitous.Minimo.Services\\Youbiquitous.Minimo.Services.csproj|c:\\users\\mariavittoria\\onedrive\\documenti\\minimo2024\\youbiquitous.minimo.services\\account\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4E1533E-B152-414C-8BCB-BDA5EA749638}|Youbiquitous.Minimo.Services\\Youbiquitous.Minimo.Services.csproj|solutionrelative:youbiquitous.minimo.services\\account\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9380FDFA-12BF-4BFF-A0AF-79A81167BA33}|Youbiquitous.Minimo.Persistence\\Youbiquitous.Minimo.Persistence.csproj|c:\\users\\mariavittoria\\onedrive\\documenti\\minimo2024\\youbiquitous.minimo.persistence\\repositories\\workrepository.update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9380FDFA-12BF-4BFF-A0AF-79A81167BA33}|Youbiquitous.Minimo.Persistence\\Youbiquitous.Minimo.Persistence.csproj|solutionrelative:youbiquitous.minimo.persistence\\repositories\\workrepository.update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824EAEB9-B3C5-4103-8022-52680FF14F46}|Youbiquitous.Minimo.ViewModels\\Youbiquitous.Minimo.ViewModels.csproj|c:\\users\\mariavittoria\\onedrive\\documenti\\minimo2024\\youbiquitous.minimo.viewmodels\\account\\worksviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824EAEB9-B3C5-4103-8022-52680FF14F46}|Youbiquitous.Minimo.ViewModels\\Youbiquitous.Minimo.ViewModels.csproj|solutionrelative:youbiquitous.minimo.viewmodels\\account\\worksviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA02DC8-EC5A-4637-BCC4-061B6D503067}|Youbiquitous.Minimo.App\\Youbiquitous.Minimo.App.csproj|c:\\users\\mariavittoria\\onedrive\\documenti\\minimo2024\\youbiquitous.minimo.app\\views\\pages\\work\\pv_dailywork.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEA02DC8-EC5A-4637-BCC4-061B6D503067}|Youbiquitous.Minimo.App\\Youbiquitous.Minimo.App.csproj|solutionrelative:youbiquitous.minimo.app\\views\\pages\\work\\pv_dailywork.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA02DC8-EC5A-4637-BCC4-061B6D503067}|Youbiquitous.Minimo.App\\Youbiquitous.Minimo.App.csproj|c:\\users\\mariavittoria\\onedrive\\documenti\\minimo2024\\youbiquitous.minimo.app\\views\\pages\\work\\timesheet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEA02DC8-EC5A-4637-BCC4-061B6D503067}|Youbiquitous.Minimo.App\\Youbiquitous.Minimo.App.csproj|solutionrelative:youbiquitous.minimo.app\\views\\pages\\work\\timesheet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA02DC8-EC5A-4637-BCC4-061B6D503067}|Youbiquitous.Minimo.App\\Youbiquitous.Minimo.App.csproj|c:\\users\\mariavittoria\\onedrive\\documenti\\minimo2024\\youbiquitous.minimo.app\\views\\layouts\\_layout_main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEA02DC8-EC5A-4637-BCC4-061B6D503067}|Youbiquitous.Minimo.App\\Youbiquitous.Minimo.App.csproj|solutionrelative:youbiquitous.minimo.app\\views\\layouts\\_layout_main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824EAEB9-B3C5-4103-8022-52680FF14F46}|Youbiquitous.Minimo.ViewModels\\Youbiquitous.Minimo.ViewModels.csproj|c:\\users\\mariavittoria\\onedrive\\documenti\\minimo2024\\youbiquitous.minimo.viewmodels\\account\\workviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824EAEB9-B3C5-4103-8022-52680FF14F46}|Youbiquitous.Minimo.ViewModels\\Youbiquitous.Minimo.ViewModels.csproj|solutionrelative:youbiquitous.minimo.viewmodels\\account\\workviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9380FDFA-12BF-4BFF-A0AF-79A81167BA33}|Youbiquitous.Minimo.Persistence\\Youbiquitous.Minimo.Persistence.csproj|c:\\users\\mariavittoria\\onedrive\\documenti\\minimo2024\\youbiquitous.minimo.persistence\\minimodatabaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9380FDFA-12BF-4BFF-A0AF-79A81167BA33}|Youbiquitous.Minimo.Persistence\\Youbiquitous.Minimo.Persistence.csproj|solutionrelative:youbiquitous.minimo.persistence\\minimodatabaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{661CA79A-F2EC-4CD8-BFC5-131435C16342}|Youbiquitous.Minimo.DomainModel\\Youbiquitous.Minimo.DomainModel.csproj|c:\\users\\mariavittoria\\onedrive\\documenti\\minimo2024\\youbiquitous.minimo.domainmodel\\account\\work.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{661CA79A-F2EC-4CD8-BFC5-131435C16342}|Youbiquitous.Minimo.DomainModel\\Youbiquitous.Minimo.DomainModel.csproj|solutionrelative:youbiquitous.minimo.domainmodel\\account\\work.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{661CA79A-F2EC-4CD8-BFC5-131435C16342}|Youbiquitous.Minimo.DomainModel\\Youbiquitous.Minimo.DomainModel.csproj|c:\\users\\mariavittoria\\onedrive\\documenti\\minimo2024\\youbiquitous.minimo.domainmodel\\account\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{661CA79A-F2EC-4CD8-BFC5-131435C16342}|Youbiquitous.Minimo.DomainModel\\Youbiquitous.Minimo.DomainModel.csproj|solutionrelative:youbiquitous.minimo.domainmodel\\account\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WorkController.cs",
+              "DocumentMoniker": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\Controllers\\WorkController.cs",
+              "RelativeDocumentMoniker": "Youbiquitous.Minimo.App\\Controllers\\WorkController.cs",
+              "ToolTip": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\Controllers\\WorkController.cs",
+              "RelativeToolTip": "Youbiquitous.Minimo.App\\Controllers\\WorkController.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAcwDMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T09:42:58.479Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "history.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\Views\\Pages\\Work\\history.cshtml",
+              "RelativeDocumentMoniker": "Youbiquitous.Minimo.App\\Views\\Pages\\Work\\history.cshtml",
+              "ToolTip": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\Views\\Pages\\Work\\history.cshtml",
+              "RelativeToolTip": "Youbiquitous.Minimo.App\\Views\\Pages\\Work\\history.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAFcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T10:03:16.371Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "pv_timesheet_modal.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\Views\\Pages\\Work\\pv_timesheet_modal.cshtml",
+              "RelativeDocumentMoniker": "Youbiquitous.Minimo.App\\Views\\Pages\\Work\\pv_timesheet_modal.cshtml",
+              "ToolTip": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\Views\\Pages\\Work\\pv_timesheet_modal.cshtml",
+              "RelativeToolTip": "Youbiquitous.Minimo.App\\Views\\Pages\\Work\\pv_timesheet_modal.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAgwFAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T09:39:29.345Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\Views\\Pages\\Work\\index.cshtml",
+              "RelativeDocumentMoniker": "Youbiquitous.Minimo.App\\Views\\Pages\\Work\\index.cshtml",
+              "ToolTip": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\Views\\Pages\\Work\\index.cshtml",
+              "RelativeToolTip": "Youbiquitous.Minimo.App\\Views\\Pages\\Work\\index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T15:49:22.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "pv_dailyWork.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\Views\\Pages\\Work\\pv_dailyWork.cshtml",
+              "RelativeDocumentMoniker": "Youbiquitous.Minimo.App\\Views\\Pages\\Work\\pv_dailyWork.cshtml",
+              "ToolTip": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\Views\\Pages\\Work\\pv_dailyWork.cshtml",
+              "RelativeToolTip": "Youbiquitous.Minimo.App\\Views\\Pages\\Work\\pv_dailyWork.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACEAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T09:39:35.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WorkService.cs",
+              "DocumentMoniker": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.Services\\Account\\WorkService.cs",
+              "RelativeDocumentMoniker": "Youbiquitous.Minimo.Services\\Account\\WorkService.cs",
+              "ToolTip": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.Services\\Account\\WorkService.cs",
+              "RelativeToolTip": "Youbiquitous.Minimo.Services\\Account\\WorkService.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAwDoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T09:44:39.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WorkRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.Persistence\\Repositories\\WorkRepository.cs",
+              "RelativeDocumentMoniker": "Youbiquitous.Minimo.Persistence\\Repositories\\WorkRepository.cs",
+              "ToolTip": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.Persistence\\Repositories\\WorkRepository.cs",
+              "RelativeToolTip": "Youbiquitous.Minimo.Persistence\\Repositories\\WorkRepository.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAzwDYAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T14:45:21.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WorksViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.ViewModels\\Account\\WorksViewModel.cs",
+              "RelativeDocumentMoniker": "Youbiquitous.Minimo.ViewModels\\Account\\WorksViewModel.cs",
+              "ToolTip": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.ViewModels\\Account\\WorksViewModel.cs",
+              "RelativeToolTip": "Youbiquitous.Minimo.ViewModels\\Account\\WorksViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:50:37.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WorkRepository.Update.cs",
+              "DocumentMoniker": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.Persistence\\Repositories\\WorkRepository.Update.cs",
+              "RelativeDocumentMoniker": "Youbiquitous.Minimo.Persistence\\Repositories\\WorkRepository.Update.cs",
+              "ToolTip": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.Persistence\\Repositories\\WorkRepository.Update.cs",
+              "RelativeToolTip": "Youbiquitous.Minimo.Persistence\\Repositories\\WorkRepository.Update.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAIwGcAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T09:42:58.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProjectService.cs",
+              "DocumentMoniker": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.Services\\Account\\ProjectService.cs",
+              "RelativeDocumentMoniker": "Youbiquitous.Minimo.Services\\Account\\ProjectService.cs",
+              "ToolTip": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.Services\\Account\\ProjectService.cs",
+              "RelativeToolTip": "Youbiquitous.Minimo.Services\\Account\\ProjectService.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwDEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T14:46:23.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "timesheet.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\Views\\Pages\\Work\\timesheet.cshtml",
+              "RelativeDocumentMoniker": "Youbiquitous.Minimo.App\\Views\\Pages\\Work\\timesheet.cshtml",
+              "ToolTip": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\Views\\Pages\\Work\\timesheet.cshtml",
+              "RelativeToolTip": "Youbiquitous.Minimo.App\\Views\\Pages\\Work\\timesheet.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T09:39:33.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_layout_Main.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\Views\\Layouts\\_layout_Main.cshtml",
+              "RelativeDocumentMoniker": "Youbiquitous.Minimo.App\\Views\\Layouts\\_layout_Main.cshtml",
+              "ToolTip": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.App\\Views\\Layouts\\_layout_Main.cshtml",
+              "RelativeToolTip": "Youbiquitous.Minimo.App\\Views\\Layouts\\_layout_Main.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T10:07:07.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WorkViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.ViewModels\\Account\\WorkViewModel.cs",
+              "RelativeDocumentMoniker": "Youbiquitous.Minimo.ViewModels\\Account\\WorkViewModel.cs",
+              "ToolTip": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.ViewModels\\Account\\WorkViewModel.cs",
+              "RelativeToolTip": "Youbiquitous.Minimo.ViewModels\\Account\\WorkViewModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T08:12:54.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Work.cs",
+              "DocumentMoniker": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.DomainModel\\Account\\Work.cs",
+              "RelativeDocumentMoniker": "Youbiquitous.Minimo.DomainModel\\Account\\Work.cs",
+              "ToolTip": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.DomainModel\\Account\\Work.cs",
+              "RelativeToolTip": "Youbiquitous.Minimo.DomainModel\\Account\\Work.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAADwvyUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T09:39:56.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MinimoDatabaseInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.Persistence\\MinimoDatabaseInitializer.cs",
+              "RelativeDocumentMoniker": "Youbiquitous.Minimo.Persistence\\MinimoDatabaseInitializer.cs",
+              "ToolTip": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.Persistence\\MinimoDatabaseInitializer.cs",
+              "RelativeToolTip": "Youbiquitous.Minimo.Persistence\\MinimoDatabaseInitializer.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAUwEcAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T15:27:45.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.DomainModel\\Account\\Project.cs",
+              "RelativeDocumentMoniker": "Youbiquitous.Minimo.DomainModel\\Account\\Project.cs",
+              "ToolTip": "C:\\Users\\Mariavittoria\\OneDrive\\Documenti\\Minimo2024\\Youbiquitous.Minimo.DomainModel\\Account\\Project.cs",
+              "RelativeToolTip": "Youbiquitous.Minimo.DomainModel\\Account\\Project.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T10:01:23.427Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

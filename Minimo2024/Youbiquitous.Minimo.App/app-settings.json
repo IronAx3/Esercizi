@@ -1,0 +1,49 @@
+///////////////////////////////////////////////////////////////////
+//
+// Project MINIMO
+// Starter Kit 2024
+//
+// Youbiquitous Team
+//
+//
+
+
+{
+  "Localizer": {
+    "Languages": [ "en-us", "it-it" ],
+    "DefaultCultureCode": "en-US"
+  },
+
+  "Run": {
+    "ShowBrowserLiveInfo": true,
+    "DevMode": true,
+    "TournamentDaysAhead": 30,
+    "Theme": "default"
+  },
+
+  "Mfa": {
+    "Enabled": false,
+    "Transport": "email"
+  },
+
+  "General": {
+    "ProjectName": "Youbiquitous",
+    "ApplicationName": "MINIMO",
+    "ApplicationDescription": "Starter Kit 2024",
+    "Version": "v0.1.001",
+    "BuildInfo": "Apr 1, 2024",
+    "ContactEmail": "team@youbiquitous.net",
+    "Copyright": {
+      "Name": "Crionet",
+      "Year": "2024-2034"
+    }
+  },
+
+  "Secrets": {
+    "MinimoDatabase": {
+      "Selector": "local",
+      "Live": "live db",
+      "Local": "Data Source=DESKTOP-0HJD1Q2\\SQLEXPRESS; Integrated Security=True; Initial Catalog=Business;TrustServerCertificate=True;"
+    }
+  }
+}

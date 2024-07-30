@@ -1,0 +1,155 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Youbiquitous.Minimo.App
+build_property.RootNamespace = Youbiquitous.Minimo.App
+build_property.ProjectDir = C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.App\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\Mariavittoria\OneDrive\Documenti\Minimo2024\Youbiquitous.Minimo.App
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Layouts/Shared/pv_x_datasource.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0c1xTaGFyZWRccHZfeF9kYXRhc291cmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Layouts/Shared/pv_x_debug.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0c1xTaGFyZWRccHZfeF9kZWJ1Zy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Layouts/Shared/pv_x_footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0c1xTaGFyZWRccHZfeF9mb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Layouts/Shared/pv_x_header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0c1xTaGFyZWRccHZfeF9oZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Layouts/Shared/pv_x_language.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0c1xTaGFyZWRccHZfeF9sYW5ndWFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Layouts/Shared/pv_x_logged.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0c1xTaGFyZWRccHZfeF9sb2dnZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Layouts/Shared/pv_x_logo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0c1xTaGFyZWRccHZfeF9sb2dvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Layouts/Shared/pv_x_metatags.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0c1xTaGFyZWRccHZfeF9tZXRhdGFncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Layouts/Shared/pv_x_print_toolbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0c1xTaGFyZWRccHZfeF9wcmludF90b29sYmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Layouts/Shared/pv_x_product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0c1xTaGFyZWRccHZfeF9wcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Layouts/Shared/pv_x_sidebar_menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0c1xTaGFyZWRccHZfeF9zaWRlYmFyX21lbnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Layouts/Shared/pv_x_tenant.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0c1xTaGFyZWRccHZfeF90ZW5hbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Layouts/Shared/pv_x_toolbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0c1xTaGFyZWRccHZfeF90b29sYmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Layouts/_layout_Landing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0c1xfbGF5b3V0X0xhbmRpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Layouts/_layout_Main.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0c1xfbGF5b3V0X01haW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Layouts/_layout_Simple.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0c1xfbGF5b3V0X1NpbXBsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Pages/Account/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQWNjb3VudFxsb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Pages/Admin/diagram.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQWRtaW5cZGlhZ3JhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Pages/Admin/historyUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQWRtaW5caGlzdG9yeVVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Pages/Admin/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQWRtaW5caW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Pages/App/error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQXBwXGVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Pages/Demo/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcRGVtb1xpbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Pages/Demo/index1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcRGVtb1xpbmRleDEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Pages/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Pages/Work/diagram.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcV29ya1xkaWFncmFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Pages/Work/forgot_password.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcV29ya1xmb3Jnb3RfcGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Pages/Work/history.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcV29ya1xoaXN0b3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Pages/Work/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcV29ya1xpbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Pages/Work/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcV29ya1xsb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Pages/Work/pv_dailyWork.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcV29ya1xwdl9kYWlseVdvcmsuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Pages/Work/pv_timesheet_modal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcV29ya1xwdl90aW1lc2hlZXRfbW9kYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/Pages/Work/timesheet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcV29ya1x0aW1lc2hlZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mariavittoria/OneDrive/Documenti/Minimo2024/Youbiquitous.Minimo.App/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

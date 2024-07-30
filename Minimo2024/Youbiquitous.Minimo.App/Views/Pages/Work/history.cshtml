@@ -1,0 +1,102 @@
+﻿@using Youbiquitous.Minimo.App.Common.Extensions
+@using Youbiquitous.Minimo.DomainModel.Account
+@using Youbiquitous.Minimo.Resources
+@using Youbiquitous.Minimo.Settings
+@model Youbiquitous.Minimo.ViewModels.Account.WorksViewModel
+@{
+	DateTime? previousDate = null;
+	var orderedWorks = Model.Works.OrderBy(w => w.WorkDate);
+	var timeRange = new List<String> { "Current Day", "Current Week", "Current Month", "2 Month", "3 Month", "6 Month", "Current Year" };
+	string selectedTimeRange = ViewBag.TimeRange as string ?? "Current Day";
+}
+@section adhoc_css {
+}
+@section adhoc_scripts_top {
+}
+
+<div class="row card col-10 offset-1 mb-0">
+	<div class="row mb-3 p-3 pb-0">
+		<div class="col-6">
+			<h3 class="italic"><i class="fas fa-work"></i>Works</h3>
+		</div>
+		<div class="col-6 text-end">
+			<a class="btn btn-sm btn-dark"><i class="fas fa-file-download"></i></a>
+		</div>
+	</div>
+	<hr />
+	<div class="row">
+		<div class="col-sm-12 col-md-6">
+			<div class="form-group">
+				<h5>Time Range: </h5>
+				<select class="form-select" name="timeRange">
+					@foreach (var d in timeRange)
+					{
+						<!option class="timeR" value="">@d </!option>
+					}
+				</select>
+
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="row">
+		<table class="table table-hover">
+			<thead class="thead-light bg-dark text-white">
+				<tr>
+					<th scope="col">Date</th>
+
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var work in orderedWorks)
+				{
+					<tr>
+						<td>@work.WorkDate.ToString()</td>
+						<td>@work.Project.DisplayName</td>
+						<td>@work.WorkType</td>
+						<td>@work.DailyPercentage</td>
+						<td>@work.Notes</td>
+						<td class="text-end">
+						</td>
+					</tr>
+
+				}
+			</tbody>
+		</table>
+	</div>
+	<nav aria-label="Page navigation example">
+		<ul class="pagination">
+			<li class="page-item">
+				<a class="page-link" href="#" aria-label="Previous">
+					<span aria-hidden="true">&laquo;</span>
+				</a>
+			</li>
+			<li class="page-item"><a class="page-link" href="#">1</a></li>
+			<li class="page-item"><a class="page-link" href="#">2</a></li>
+			<li class="page-item"><a class="page-link" href="#">3</a></li>
+			<li class="page-item">
+				<a class="page-link" href="#" aria-label="Next">
+					<span aria-hidden="true">&raquo;</span>
+				</a>
+			</li>
+		</ul>
+	</nav>
+</div>
+
+<script>
+	$(".timeR").on("click", function () {
+
+		var valueOp = $(this).val();
+		console.log(valueOp);
+		var url = "/Operator/History/" + valueOp;
+		if (response.success) {
+			Ybq.goto(url)
+		}
+		else {
+			window.location.reload();
+		}
+
+
+	});
+
+</script>

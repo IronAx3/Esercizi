@@ -1,0 +1,119 @@
+﻿///////////////////////////////////////////////////////////////////
+//
+// Youbiquitous MARTLET Services 
+// In-house cross-cutting services
+// 2024
+//
+// Author: Youbiquitous Team
+//
+
+
+
+// SECURITY
+using Youbiquitous.Martlet.Services.Security.Password.Hashing;
+
+namespace Youbiquitous.Martlet.Services.Security.Password;
+
+/// <summary>
+/// Default class used in in-house applications to hash/check passwords
+/// </summary>
+public class DefaultPasswordService : IPasswordService
+{
+    private readonly IHashingService _hashingService;
+    public DefaultPasswordService()
+        : this(new DefaultPasswordHashingService()) { }
+    public DefaultPasswordService(IHashingService hashingService)
+    {
+        _hashingService = hashingService;
+    }
+
+    /// <summary>
+    /// Check if old and new passwords can be switched 
+    /// </summary>
+    /// <param name="storedHash"></param>
+    /// <param name="oldPassword"></param>
+    /// <param name="newPassword"></param>
+    /// <returns></returns>
+    public bool CanChangePassword(string storedHash, string oldPassword, string newPassword)
+    {
+        if (string.IsNullOrWhiteSpace(oldPassword) && string.IsNullOrWhiteSpace(newPassword))
+            return true;
+
+        if (string.IsNullOrWhiteSpace(oldPassword) || !_hashingService.Validate(oldPassword, storedHash))
+            return false;
+
+        if (!IsStrongPassword(newPassword))
+            return false;
+
+        return true;
+    }
+
+    /// <summary>
+    /// Ensures that hash of passed password matches the given hash
+    /// </summary>
+    /// <param name="clearPassword"></param>
+    /// <param name="hashedPassword"></param>
+    /// <returns></returns>
+    public bool Validate(string clearPassword, string hashedPassword)
+    {
+        if (string.IsNullOrWhiteSpace(clearPassword) ||
+            string.IsNullOrWhiteSpace(hashedPassword))
+            return false;
+
+        return _hashingService.Validate(clearPassword, hashedPassword);
+    }
+
+    /// <summary>
+    /// Returns the password string ready for storage (typically, a hash of the given string) 
+    /// </summary>
+    /// <param name="clearPassword"></param>
+    /// <returns></returns>
+    public string Store(string clearPassword)
+    {
+        return _hashingService.Hash(clearPassword);
+    }
+
+    /// <summary>
+    /// Checks whether the provided string is considered a strong password
+    /// </summary>
+    /// <param name="proposedPassword"></param>
+    /// <returns></returns>
+    public bool IsStrongPassword(string proposedPassword)
+    {
+        const int MinimumLength = 8;
+        var score = 0;
+        if (proposedPassword.Length >= MinimumLength)
+            score++;
+
+        // Doesnt work !!!
+        //if (Regex.Match(proposedPassword, @"/\d+/", RegexOptions.ECMAScript).Success)
+        //    score++;
+        //if (Regex.Match(proposedPassword, @"/[a-z]/", RegexOptions.ECMAScript).Success &&
+        //    Regex.Match(proposedPassword, @"/[A-Z]/", RegexOptions.ECMAScript).Success)
+        //    score++;
+        //if (Regex.Match(proposedPassword, @"/.[!,@,#,$,%,^,&,*,?,_,~,-,£,(,)]/", RegexOptions.ECMAScript).Success)
+        //    score++;
+
+        // To be changed after fixing RegEx things
+        return score > 0;
+    }
+
+    /// <summary>
+    /// Generates a random password using the internal rules of strong passwords
+    /// </summary>
+    /// <param name="minimumLength"></param>
+    /// <returns></returns>
+    public static string Generate(int minimumLength)
+    {
+        var pswd = "";
+        var possible = "ABCDEFGHI3456JKLMNO$PQRSTUVWXYZabcdefghijklmnopqrstu£vwxyz12789";
+        var random = new Random(DateTime.Now.Second);
+        for (var i = 0; i < minimumLength; i++)
+        {
+            var index = random.Next(0, possible.Length - 1);
+            pswd += possible[index].ToString();
+        }
+
+        return pswd;
+    }
+}
